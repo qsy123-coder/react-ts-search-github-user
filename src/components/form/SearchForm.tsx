@@ -1,6 +1,13 @@
 import React, { useState, type ChangeEvent, type FormEvent } from "react";
 
 import { toast } from "sonner";
+<<<<<<< HEAD
+=======
+import { Input } from "@/components/ui/input";
+import { Label } from "../ui/label";
+import { Button } from "../ui/button";
+
+>>>>>>> dev
 type SearchFormProps = {
   userName: string;
   setUserName: React.Dispatch<React.SetStateAction<string>>;
@@ -32,6 +39,10 @@ const SearchForm = ({ userName, setUserName }: SearchFormProps) => {
         value={text}
         onChange={handleChange}
       />
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
       <Button
         type="submit"
         variant="default"
