@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import SearchForm from "./components/form/SearchForm";
 import ProfileUser from "./components/user/ProfileUser";
 import { useState } from "react";
