@@ -1,4 +1,4 @@
-import React, { useState, type ChangeEvent, type FormEvent } from "react";
+import React, { useState } from "react";
 
 import { toast } from "sonner";
 import { Input } from "@/components/ui/input";
