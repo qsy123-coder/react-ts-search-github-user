@@ -1,11 +1,8 @@
 import React from "react";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
-  CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "../ui/button";
@@ -29,11 +26,7 @@ const UserCard = ({ avatarUrl, name, bio, url }: UserCardProps) => {
           <CardTitle className="font-bold">{name}</CardTitle>
           <CardDescription>{bio || "hello"}</CardDescription>
 
-          <Button
-            size={"lg"}
-            variant={"default"}
-            className="w-full"
-          >
+          <Button size={"lg"} variant={"default"} className="w-full">
             <a href={url}>Follow</a>
           </Button>
         </div>

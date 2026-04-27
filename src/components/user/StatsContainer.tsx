@@ -10,22 +10,10 @@ const StatsContainer = (props: StatsContainerProps) => {
   const { gists, following, followers, repositories } = props;
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-      <StatsCard
-        text="gists"
-        count={gists.totalCount}
-      />
-      <StatsCard
-        text="following"
-        count={following.totalCount}
-      />
-      <StatsCard
-        text="followers"
-        count={followers.totalCount}
-      />
-      <StatsCard
-        text="repositories"
-        count={repositories.totalCount}
-      />
+      <StatsCard text="gists" count={gists.totalCount} />
+      <StatsCard text="following" count={following.totalCount} />
+      <StatsCard text="followers" count={followers.totalCount} />
+      <StatsCard text="repositories" count={repositories.totalCount} />
     </div>
   );
 };
