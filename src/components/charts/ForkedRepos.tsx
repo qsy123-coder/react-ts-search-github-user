@@ -1,6 +1,5 @@
 import type { Repository } from "@/types";
 import { calculateMostForkedRepos } from "@/utils";
-import React from "react";
 import {
   ChartContainer,
   ChartTooltip,

@@ -1,4 +1,3 @@
-import React from "react";
 import StatsCard from "./StatsCard";
 type StatsContainerProps = {
   gists: { totalCount: number };
